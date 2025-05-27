@@ -153,3 +153,15 @@ h1 {
         gap: 15px;
     }
 }
+/* Adicione esta seção ao final do seu style.css */
+
+.btn.restart-quiz {
+    background-color: #673AB7; /* Uma cor roxa vibrante */
+    color: white;
+    margin-top: 30px; /* Um pouco mais de margem para separar */
+}
+
+.btn.restart-quiz:hover {
+    background-color: #512DA8;
+    transform: translateY(-3px);
+}
