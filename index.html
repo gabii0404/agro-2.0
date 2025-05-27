@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Certo ou Errado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz: Certo ou Errado?</h1>
+        <div class="question-box">
+            <p id="question-text"></p>
+        </div>
+        <div class="buttons-container">
+            <button id="correct-btn" class="btn correct">CERTO</button>
+            <button id="wrong-btn" class="btn wrong">ERRADO</button>
+        </div>
+        <div id="feedback-container" class="feedback-container"></div>
+        <div class="score-container">
+            Pontuação: <span id="score">0</span>
+        </div>
+        <button id="next-btn" class="btn next-question" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
