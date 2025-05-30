@@ -1,24 +1,36 @@
 const questions = [
     {
-        question: "A água é essencial para o transporte de nutrientes em poríferos.",
+        question: "O principal cereal cultivado no Brasil é o soja.",
         isCorrect: true
     },
     {
-        question: "Poríferos possuem tecidos e órgãos complexos.",
+        question: "A pecuária de corte é a criação de animais para a produção de leite e seus derivados.",
         isCorrect: false
     },
     {
-        question: "Cnidócitos são células encontradas em poríferos para filtração.",
-        isCorrect: false
-    },
-    {
-        question: "O ósculo é a principal abertura por onde a água entra nos poríferos.",
-        isCorrect: false
-    },
-    {
-        question: "Cnidários utilizam os cnidócitos para defesa e captura de presas.",
+        question: "Agrotóxicos e defensivos agrícolas são a mesma coisa, com nomes diferentes.",
         isCorrect: true
-    }
+    },
+    {
+        question: "A aquicultura se refere à criação de peixes e outros organismos aquáticos em cativeiro",
+        isCorrect: true
+    },
+    {
+        question: "Impostos são a principal forma de arrecadação de recursos do governo.",
+        isCorrect: true
+    },
+    {
+        question: "A favelização é um problema social comum em grandes centros urbanos.",
+        isCorrect: true
+    },
+    {
+        question: "A decentralização administrativa transfere poder da capital para outras regiões.",
+        isCorrect: true
+    },
+    {
+        question: "O setor primário da economia inclui a maioria das indústrias e fábricas.",
+        isCorrect: false
+    },
 ];
 
 let currentQuestionIndex = 0;

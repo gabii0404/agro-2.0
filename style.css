@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #2e3b50, #1a222f);
+    background: linear-gradient(135deg, #83ff52, #ff7b7b);
     color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .quiz-container {
-    background-color: #1f2733;
+    background-color: #fdff6a;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     padding: 40px;
@@ -28,14 +28,14 @@ body {
 }
 
 h1 {
-    color: #4CAF50; /* Verde vibrante para o título */
+    color: #1c8a25; /* Verde vibrante para o título */
     margin-bottom: 30px;
     font-size: 2.5em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .question-box {
-    background-color: #2a3447;
+    background-color: #fdff6c;
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 30px;
@@ -49,7 +49,7 @@ h1 {
 #question-text {
     font-size: 1.5em;
     font-weight: 500;
-    color: #e0e0e0;
+    color: #000000;
 }
 
 .buttons-container {
@@ -118,12 +118,12 @@ h1 {
 .score-container {
     font-size: 1.4em;
     font-weight: bold;
-    color: #FFC107; /* Amarelo para a pontuação */
+    color: #000000; /* Amarelo para a pontuação */
     margin-top: 20px;
 }
 
 .btn.next-question {
-    background-color: #2196F3; /* Azul para o botão de próxima pergunta */
+    background-color: #da0f0f; /* Azul para o botão de próxima pergunta */
     color: white;
     margin-top: 20px;
 }
@@ -153,12 +153,11 @@ h1 {
         gap: 15px;
     }
 }
-/* Adicione esta seção ao final do seu style.css */
 
 .btn.restart-quiz {
-    background-color: #673AB7; /* Uma cor roxa vibrante */
+    background-color: #673AB7; 
     color: white;
-    margin-top: 30px; /* Um pouco mais de margem para separar */
+    margin-top: 30px;
 }
 
 .btn.restart-quiz:hover {
